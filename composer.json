@@ -1,0 +1,24 @@
+{
+    "name": "Dev/DevvApp",
+    "description": "Development Appplication",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": 
+    [{
+        "name": "Rolando Gonzalez",
+        "email": "roglecas@gmail.com",
+        "role": "Sr. Software Engineer"
+    }],
+    "require": {
+        "setasign/fpdf": "^1.8",
+        "raveren/kint": "0.9.*@dev",
+        "smarty/smarty": "3.1.*@dev",
+        "phpmailer/phpmailer": "^5.2",
+        "phpunit/phpunit": "4.8.*@dev",
+        "league/oauth2-google": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.2"
+    },
+    "config": {
+        "vendor-dir": "Vendor"
+    }
+}

@@ -1,0 +1,131 @@
+@import 'Bootstrap.css';
+@import 'MetisMenu.css';
+@import 'Font.Awesome.css';
+
+
+/* BODY */
+.devapp-DEV-body-auth     { background-color: #f9f9f9; }
+.devapp-DEV-body-no-auth  { background-color: #ffffff; }
+a:link, a:hover, a:visited, a:active { text-decoration: none; }
+
+/* PAGES CONTENT */
+.devapp-page-title{letter-spacing: 0.5px; font-family: 'Open Sans', sans-serif; }
+#devapp-content{}
+footer{margin-top: 10px;}
+div.error{border: 0;width: 1px; display: inline; }
+.devapp-table{vertical-align: middle;}
+
+/* Index */
+.devapp-index-tile { margin-top: 15px; } .devapp-index-lgn, .devapp-index-bnn{ margin-top: 50px; height: 240px; } .devapp-index-footer { margin-top: 25px; }
+.devapp-bck-index-hdr {background-color: #435c72; color:#fff; font-size: 21px; font-weight: 200; padding: 52px;}
+.devapp-bck-index-btm {background-color: #435c72; color:#fff; padding: 10px;}
+.devapp-login-tile { background-color: #188e18; padding: 30px 30px 20px 30px; color: #fff;}
+.devapp-bck-index-rpt-tile {background-color: #297acc; color:#fff; padding: 10px 30px 40px 30px;}
+.devapp-bck-index-dsg-tile {background-color: #8f3d8a; color:#fff; padding: 10px 30px 40px 30px;}
+.devapp-bck-index-exp-tile {background-color: #dc3c00; color:#fff; padding: 10px 30px 40px 30px;}
+
+/* EXPORT MENU IMG */
+.devapp-export-img{margin: -4px 5px 0 0;}
+
+/* TOOLTIP */
+div.tooltip-inner {max-width: 500px; height: 30px; padding-top: 7px;}
+
+input[type=text]{height:40px;}
+button[type='submit']{height:38px;margin-top:1px;}
+
+/* Menu link color */
+.devapp-grey:link, .devapp-grey:hover, .devapp-grey:visited, .devapp-grey:active, .devapp-grey:hover { text-decoration: none; color: #9d9d9d;}
+
+/* JQUERY ERROR MESSAGE */
+label.error{color: red; font-size: 11px; margin: -29px 0 0 -100px; border: 0;}
+.error{border: 1px solid red; }
+
+
+.devapp-bck-app {background-color: #f5f5f5;}
+.devapp-bck-light-grey{background-color: #f6f6f6;}
+.devapp-red{color: red;}
+
+.devapp-label { border-radius: 10px; padding: 2px 8px; color: #fff; background-color: #ff9e33; font-weight: bold; }
+input[readonly].devapp-disable-input{background-color: #fff;}
+input[disabled].devapp-disable-input{background-color: #fff;}
+
+.devapp-cntn-bck                {border: 1px solid #ccc; background-color: #FFF; padding: 10px 10px 20px 10px; margin: 10px 0  0   0; }
+
+/* Header Bar */
+.devapp-logout { color: #999c9e; font-family: 'Raleway'; font-weight: normal; font-size: 14px; margin-top: -20px; }
+.devapp-logout:hover { color: #000;}
+.devapp-navbar-color { color: #999c9e; }
+.devapp-typo-hlv { font-family: Helvetica; }
+.devapp-btn-typo { font-family: Helvetica; }
+.devapp-typo-rlw { font-family: 'Raleway'; }
+
+/* INPUTS */
+.devapp-md-input{height:40px;}
+.devapp-md-btn{height:38px;margin-top:1px;padding-top:9px;}
+
+/* File style button text */
+.buttonText{margin-left:5px;}
+
+/* Nav Panel */
+.devapp-menu { background-color: #2C3E50; z-index: 9999; position: fixed; overflow-x: scroll; left: -15.625em; width: 15.625em; }
+.devapp-menu ul { list-style: none; margin-left: -40px;}
+.devapp-menu a {display: block; border-bottom: 2px solid #cdcdcd; padding: 15px; }
+.devapp-menu a:link, .devapp-menu a:visited { color: #fff; }
+.devapp-menu a:hover,.devapp-menu a:active { background-color: #25B89A; color: #fff;}
+.wrap { position: relative; }
+.devapp-submenu { background-color: #3a4d61;}
+.devapp-submenu a {display: block; border-bottom: 1px solid #5a5a6c; padding: 10px 0px 10px 5px; }
+#devapp-title-panel{border-bottom: 1px solid #ccc; }
+.devapp-table-no-sort .sorting, .sorting_asc, .sorting_desc { background : none; }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){    
+    /* Index */
+    .devapp-index-lgn{margin-top: 0px;} .devapp-index-tile{margin-top: 0px;} .devapp-index-footer{margin-top: 10px; margin-bottom: 20px;} 
+    .devapp-index-bnn{margin-top:10px;}
+    .devapp-bck-index-hdr{padding: 5px 30px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+   
+}
+
+/* LARGE */
+@media only screen and (min-width: 1080px) {
+    /* MODAL IN PRD DAILY STATION */
+    .devapp-modal-dialog-lg{width: 1250px;}
+    .devapp-modal-dialog-md{width: 800px;}
+    .devapp-rdate-input{
+        padding: 6px 12px;
+        line-height: 1.42857143;
+        color: #555;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 240px;}
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(fonts/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  /* unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; */
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(fonts/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  /* unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; */
+}
+
+/* Remove spin in number input fields. */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
